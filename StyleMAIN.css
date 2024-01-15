@@ -1,0 +1,80 @@
+/* Reset default margins and paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('blue-dots.png') center center fixed no-repeat; /* Use an image containing scattered blue dots */
+    background-size: cover;
+    color: #fff;
+}
+
+/* Wrapper for vertical layout */
+.wrapper {
+    display: flex;
+}
+
+/* Vertical navigation styles */
+.vertical-nav {
+    width: 25%; /* Adjust this to control the width of the navigation */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #fff;
+    padding: 20px;
+}
+
+.vertical-nav ul {
+    list-style: none;
+}
+
+.vertical-nav ul li {
+    margin-bottom: 15px;
+}
+
+.vertical-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Content area styles */
+.content {
+    flex: 1;
+    padding: 40px;
+}
+
+/* Section styles */
+section {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #fff;
+}
+/* ... (existing styles) ... */
+
+/* Vertical navigation styles */
+.vertical-nav {
+    width: 25%; /* Adjust this to control the width of the navigation */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: #fff;
+    padding: 20px;
+}
+
+/* ... (existing styles) ... */
